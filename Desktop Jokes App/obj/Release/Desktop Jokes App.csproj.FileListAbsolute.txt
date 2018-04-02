@@ -1,0 +1,10 @@
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\bin\Release\Desktop Jokes App.exe.config
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\bin\Release\Desktop Jokes App.exe
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\bin\Release\Desktop Jokes App.pdb
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\obj\Release\Desktop Jokes App.csprojResolveAssemblyReference.cache
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\obj\Release\Desktop_Jokes_App.Form1.resources
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\obj\Release\Desktop_Jokes_App.Properties.Resources.resources
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\obj\Release\Desktop Jokes App.csproj.GenerateResource.Cache
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\obj\Release\Desktop Jokes App.csproj.CoreCompileInputs.cache
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\obj\Release\Desktop Jokes App.exe
+C:\Users\TorinPC\source\repos\DekstopChanger\Desktop Jokes App\obj\Release\Desktop Jokes App.pdb
