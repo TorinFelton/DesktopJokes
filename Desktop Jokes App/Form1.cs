@@ -27,6 +27,9 @@ namespace Desktop_Jokes_App
         {
             InitializeComponent();
             timer1.Start();
+
+            GetBackgroud(); // Start first joke
+            imageWrite();
             changeJokeNow.Start(); // start the joke change timer
             
         }
@@ -111,16 +114,16 @@ namespace Desktop_Jokes_App
             }
             else
             {
-                Bitmap bitMapImage = new System.Drawing.Bitmap(@">>>>>>>>> ENTER YOUR DESKTOP WALLPAPER IMAGE HERE, MUST BE JPG. IT IS POSSIBLE TO USE A PNG, BUT YOU WILL HAVE TO CHANGE THE FOLLOWING: (commented)<<<<<<<<<<<<<<<<<");
+                Bitmap bitMapImage = new System.Drawing.Bitmap(@"C:\Users\TorinPC\Pictures\Camera Roll\Random\WallpaperMoving\wp8.jpg");
                 Graphics graphicImage = Graphics.FromImage(bitMapImage);
                 graphicImage.SmoothingMode = SmoothingMode.AntiAlias;
                 graphicImage.DrawString(GetFirstParagraph(webData), new Font("Sego UI", 10, FontStyle.Bold), fontBrush, new Point(2, 1060));
                 //graphicImage.DrawArc(new Pen(Color.Red, 3), 90, 235, 150, 50, 0, 360);
                 //Save the new image to the response output stream.
-                bitMapImage.Save(@"currentWallpaper.jpg", ImageFormat.Jpeg); // If you're using png, change to this: bitMapImage.Save(@"currentWallpaper.png", ImageFormat.Png);
-                SetBackgroud(@"currentWallpaper.jpg"); // If you're using png, change to this: SetBackgroud(@"currentWallpaper.png");
+                bitMapImage.Save(@"C:\Users\TorinPC\Pictures\Camera Roll\Random\WallpaperMoving\currentWallpaper.jpg", ImageFormat.Jpeg);
+                SetBackgroud(@"C:\Users\TorinPC\Pictures\Camera Roll\Random\WallpaperMoving\currentWallpaper.jpg");
 
-                bitMapImage.Dispose(); // Reduces the amount of memory being used by ~6mb
+                bitMapImage.Dispose(); // This saves ~6mb of memory.
                 graphicImage.Dispose();
                 wc.Dispose();
                 fontBrush.Dispose();
